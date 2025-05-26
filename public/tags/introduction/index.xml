@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Introduction on Red Math Book</title>
+    <link>http://localhost:1313/tags/introduction/</link>
+    <description>Recent content in Introduction on Red Math Book</description>
+    <generator>Hugo -- 0.147.5</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter 1: Introduction</title>
+      <link>http://localhost:1313/part1/chapter1/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/part1/chapter1/</guid>
+      <description>&lt;h1 id=&#34;chapter-1---limits&#34;&gt;Chapter 1 - Limits&lt;/h1&gt;
+&lt;p&gt;$$
+lim_x
+$$&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Clean and modern design&lt;/li&gt;
+&lt;li&gt;Responsive layout&lt;/li&gt;
+&lt;li&gt;Dark/Light mode support&lt;/li&gt;
+&lt;li&gt;Table of contents&lt;/li&gt;
+&lt;li&gt;Code syntax highlighting&lt;/li&gt;
+&lt;li&gt;And much more!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;
+&lt;p&gt;You can start writing your content in Markdown format. The PaperMod theme will handle the styling and presentation.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h1 id="chapter-1---limits">Chapter 1 - Limits</h1>
+<p>$$
+lim_x
+$$</p>
+<h2 id="features">Features</h2>
+<ul>
+<li>Clean and modern design</li>
+<li>Responsive layout</li>
+<li>Dark/Light mode support</li>
+<li>Table of contents</li>
+<li>Code syntax highlighting</li>
+<li>And much more!</li>
+</ul>
+<h2 id="getting-started">Getting Started</h2>
+<p>You can start writing your content in Markdown format. The PaperMod theme will handle the styling and presentation.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

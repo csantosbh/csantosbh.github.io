@@ -1,0 +1,112 @@
+.book-toc {
+    margin: 2rem 0;
+    font-family: "STIX Two Text", "Cambria Math", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.part-section {
+    margin-bottom: 2rem;
+    font-family: "STIX Two Text", "Cambria Math", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: 600;
+}
+
+.part-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--primary);
+}
+
+.chapter-list {
+    list-style: none;
+    padding-left: 1rem;
+    margin: 0;
+    font-family: "STIX Two Text", "Cambria Math", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.chapter-list li {
+    margin: 0.5rem 0;
+}
+
+.chapter-list a {
+    text-decoration: none;
+    color: var(--primary);
+    transition: color 0.2s ease;
+}
+
+.chapter-list a:hover {
+    color: var(--secondary);
+}
+
+.subchapter-list {
+    list-style: none;
+    padding-left: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.subchapter-list li {
+    margin: 0.25rem 0;
+    font-size: 0.95em;
+}
+
+.subchapter-list a {
+    color: var(--secondary);
+    opacity: 0.9;
+}
+
+.subchapter-list a:hover {
+    opacity: 1;
+}
+
+/* Use serif fonts for better math readability */
+.post-content {
+    font-family: "STIX Two Text", "Cambria Math", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Style math content */
+.post-content .math {
+    font-family: "STIX Two Text", "Cambria Math", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/* Style inline math */
+.post-content .math-inline {
+    font-family: "STIX Two Text", "Cambria Math", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+/* Style display math */
+.post-content .math-display {
+    font-family: "STIX Two Text", "Cambria Math", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin: 1em 0;
+}
+
+/* Adjust heading fonts to match */
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+    font-family: "STIX Two Text", "Cambria Math", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: 600;
+}
+
+/* Adjust spacing for better readability */
+.post-content p {
+    margin-bottom: 1.2em;
+}
+
+/* Style page title and headers */
+.site-title {
+    font-family: "STIX Two Text", "Cambria Math", "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
+    font-weight: 600;
+}
+
+.post-title {
+    font-family: "STIX Two Text", "Cambria Math", "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
+    font-weight: 600;
+}
+
+/* Style all headers in the theme */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "STIX Two Text", "Cambria Math", "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Red Math Book</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Red Math Book</description>
+    <generator>Hugo -- 0.147.5</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/part1/chapter1/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/part1/chapter1/</guid>
+      <description>&lt;h1 id=&#34;chapter-x---inequalities&#34;&gt;Chapter X - Inequalities&lt;/h1&gt;
+&lt;h2 id=&#34;properties&#34;&gt;Properties&lt;/h2&gt;
+&lt;h1 id=&#34;chapter-1---limits&#34;&gt;Chapter 1 - Limits&lt;/h1&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;We say that $f(x)$ approaches $l$ as $x$ approaches $a$ if, for any given tolerance $\epsilon &gt; 0$ (measuring how close $f(x)$ must be to $l$), there exists a corresponding distance $\delta &gt; 0$ (measuring how close $x$ must be to $a$) such that whenever $x$ lies within $\delta$ of $a$ (but is not equal to $a$), the function value $f(x)$ lies within $\epsilon$ of $l$.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h1 id="chapter-x---inequalities">Chapter X - Inequalities</h1>
+<h2 id="properties">Properties</h2>
+<h1 id="chapter-1---limits">Chapter 1 - Limits</h1>
+<h2 id="introduction">Introduction</h2>
+<p>We say that $f(x)$ approaches $l$ as $x$ approaches $a$ if, for any given tolerance $\epsilon > 0$ (measuring how close $f(x)$ must be to $l$), there exists a corresponding distance $\delta > 0$ (measuring how close $x$ must be to $a$) such that whenever $x$ lies within $\delta$ of $a$ (but is not equal to $a$), the function value $f(x)$ lies within $\epsilon$ of $l$.</p>
+<p>More precisely, for every $x$ in the punctured interval $(a-\delta, a+\delta) \setminus \{a\}$, we have $f(x) \in (l-\epsilon, l+\epsilon)$. This fundamental concept can be expressed formally as follows:</p>
+$$
+\lim\limits_{x \to a}f(x)=l \iff (\forall \epsilon \enspace \exists \delta
+\enspace \forall x: 0 < \left|x-a\right| < \delta \Rightarrow
+\left|f(x)-l\right|<\epsilon)
+$$<h2 id="product-rule">Product rule</h2>
+<p>Let&rsquo;s expand the definition of limits for $\lim f(x)$ and $\lim g(x)$
+individually, taking care to distinguish between their corresponding tolerance values:</p>
+$$
+\begin{aligned}
+\lim\limits_{x \to a}f(x)=l &\iff (\forall \epsilon' \enspace \exists \delta'
+\enspace \forall x: 0 < \left|x-a\right| < \delta' \Rightarrow
+\left|f(x)-l\right|<\epsilon') \\
+\lim\limits_{x \to a}g(x)=m &\iff (\forall \epsilon'' \enspace \exists \delta''
+\enspace \forall x: 0 < \left|x-a\right| < \delta'' \Rightarrow
+\left|g(x)-m\right|<\epsilon'')
+\end{aligned}
+$$<p>We want to prove that $\lim\limits_{x \to a}f(x)g(x)=lm$, which means
+</p>
+$$
+\lim\limits_{x \to a}f(x)g(x)=lm \iff (\forall \epsilon''' \enspace \exists \delta'''
+\enspace \forall x: 0 < \left|x-a\right| < \delta''' \Rightarrow
+\left|f(x)g(x)-lm\right|<\epsilon''').
+$$<p>We know from TODO that $\left|a+b\right| \leq \left|a\right|+\left|b\right|$,
+and $\left|a-b\right| \geq \left|a\right|-\left|b\right|$.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
